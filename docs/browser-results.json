@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "checks_completed": 14,
+  "checks_total": 14,
+  "engine": "Qt WebEngine via Slicer",
+  "evidence": "actual local app"
+}

@@ -1,0 +1,908 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "六區合成示範",
+    "origin": "synthetic",
+    "source": "專案內建可重現合成情境；不代表真實地理或營運",
+    "license": "CC0-1.0",
+    "version": "1.0"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "A",
+        "kind": "district",
+        "name": "北岸",
+        "population": 37100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.46799999999999,
+              25.095
+            ],
+            [
+              121.488,
+              25.095
+            ],
+            [
+              121.488,
+              25.109
+            ],
+            [
+              121.46799999999999,
+              25.109
+            ],
+            [
+              121.46799999999999,
+              25.095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472,
+          25.098
+        ]
+      },
+      "properties": {
+        "id": "A-D1",
+        "kind": "demand",
+        "district": "A",
+        "name": "北岸需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.478,
+          25.103
+        ]
+      },
+      "properties": {
+        "id": "A-D2",
+        "kind": "demand",
+        "district": "A",
+        "name": "北岸需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484,
+          25.106
+        ]
+      },
+      "properties": {
+        "id": "A-D3",
+        "kind": "demand",
+        "district": "A",
+        "name": "北岸需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.476,
+          25.104
+        ]
+      },
+      "properties": {
+        "id": "A-F1",
+        "kind": "facility",
+        "district": "A",
+        "category": "park",
+        "name": "北岸公園綠地 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48299999999999,
+          25.104
+        ]
+      },
+      "properties": {
+        "id": "A-F2",
+        "kind": "facility",
+        "district": "A",
+        "category": "sport",
+        "name": "北岸公共運動 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472,
+          25.099
+        ]
+      },
+      "properties": {
+        "id": "A-F3",
+        "kind": "facility",
+        "district": "A",
+        "category": "open",
+        "name": "北岸開放空間 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48299999999999,
+          25.098
+        ]
+      },
+      "properties": {
+        "id": "A-F4",
+        "kind": "facility",
+        "district": "A",
+        "category": "park",
+        "name": "北岸公園綠地 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473,
+          25.104
+        ]
+      },
+      "properties": {
+        "id": "A-F5",
+        "kind": "facility",
+        "district": "A",
+        "category": "sport",
+        "name": "北岸公共運動 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "B",
+        "kind": "district",
+        "name": "東丘",
+        "population": 47200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.488,
+              25.095
+            ],
+            [
+              121.50800000000001,
+              25.095
+            ],
+            [
+              121.50800000000001,
+              25.109
+            ],
+            [
+              121.488,
+              25.109
+            ],
+            [
+              121.488,
+              25.095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492,
+          25.098
+        ]
+      },
+      "properties": {
+        "id": "B-D1",
+        "kind": "demand",
+        "district": "B",
+        "name": "東丘需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498,
+          25.103
+        ]
+      },
+      "properties": {
+        "id": "B-D2",
+        "kind": "demand",
+        "district": "B",
+        "name": "東丘需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.504,
+          25.106
+        ]
+      },
+      "properties": {
+        "id": "B-D3",
+        "kind": "demand",
+        "district": "B",
+        "name": "東丘需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492,
+          25.105
+        ]
+      },
+      "properties": {
+        "id": "B-F1",
+        "kind": "facility",
+        "district": "B",
+        "category": "park",
+        "name": "東丘公園綠地 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.504,
+          25.098
+        ]
+      },
+      "properties": {
+        "id": "B-F2",
+        "kind": "facility",
+        "district": "B",
+        "category": "sport",
+        "name": "東丘公共運動 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.501,
+          25.107
+        ]
+      },
+      "properties": {
+        "id": "B-F3",
+        "kind": "facility",
+        "district": "B",
+        "category": "park",
+        "name": "東丘公園綠地 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C",
+        "kind": "district",
+        "name": "河心",
+        "population": 59000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.46799999999999,
+              25.081
+            ],
+            [
+              121.488,
+              25.081
+            ],
+            [
+              121.488,
+              25.095000000000002
+            ],
+            [
+              121.46799999999999,
+              25.095000000000002
+            ],
+            [
+              121.46799999999999,
+              25.081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472,
+          25.084
+        ]
+      },
+      "properties": {
+        "id": "C-D1",
+        "kind": "demand",
+        "district": "C",
+        "name": "河心需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.478,
+          25.089000000000002
+        ]
+      },
+      "properties": {
+        "id": "C-D2",
+        "kind": "demand",
+        "district": "C",
+        "name": "河心需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484,
+          25.092000000000002
+        ]
+      },
+      "properties": {
+        "id": "C-D3",
+        "kind": "demand",
+        "district": "C",
+        "name": "河心需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484,
+          25.092000000000002
+        ]
+      },
+      "properties": {
+        "id": "C-F1",
+        "kind": "facility",
+        "district": "C",
+        "category": "park",
+        "name": "河心公園綠地 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.485,
+          25.083000000000002
+        ]
+      },
+      "properties": {
+        "id": "C-F2",
+        "kind": "facility",
+        "district": "C",
+        "category": "open",
+        "name": "河心開放空間 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "D",
+        "kind": "district",
+        "name": "新街",
+        "population": 53200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.488,
+              25.081
+            ],
+            [
+              121.50800000000001,
+              25.081
+            ],
+            [
+              121.50800000000001,
+              25.095000000000002
+            ],
+            [
+              121.488,
+              25.095000000000002
+            ],
+            [
+              121.488,
+              25.081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492,
+          25.084
+        ]
+      },
+      "properties": {
+        "id": "D-D1",
+        "kind": "demand",
+        "district": "D",
+        "name": "新街需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498,
+          25.089000000000002
+        ]
+      },
+      "properties": {
+        "id": "D-D2",
+        "kind": "demand",
+        "district": "D",
+        "name": "新街需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.504,
+          25.092000000000002
+        ]
+      },
+      "properties": {
+        "id": "D-D3",
+        "kind": "demand",
+        "district": "D",
+        "name": "新街需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.494,
+          25.091
+        ]
+      },
+      "properties": {
+        "id": "D-F1",
+        "kind": "facility",
+        "district": "D",
+        "category": "park",
+        "name": "新街公園綠地 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503,
+          25.09
+        ]
+      },
+      "properties": {
+        "id": "D-F2",
+        "kind": "facility",
+        "district": "D",
+        "category": "sport",
+        "name": "新街公共運動 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.495,
+          25.084
+        ]
+      },
+      "properties": {
+        "id": "D-F3",
+        "kind": "facility",
+        "district": "D",
+        "category": "open",
+        "name": "新街開放空間 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          25.083000000000002
+        ]
+      },
+      "properties": {
+        "id": "D-F4",
+        "kind": "facility",
+        "district": "D",
+        "category": "sport",
+        "name": "新街公共運動 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50500000000001,
+          25.085
+        ]
+      },
+      "properties": {
+        "id": "D-F5",
+        "kind": "facility",
+        "district": "D",
+        "category": "open",
+        "name": "新街開放空間 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49300000000001,
+          25.086000000000002
+        ]
+      },
+      "properties": {
+        "id": "D-F6",
+        "kind": "facility",
+        "district": "D",
+        "category": "park",
+        "name": "新街公園綠地 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "E",
+        "kind": "district",
+        "name": "南港灣",
+        "population": 21100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.46799999999999,
+              25.067
+            ],
+            [
+              121.488,
+              25.067
+            ],
+            [
+              121.488,
+              25.081000000000003
+            ],
+            [
+              121.46799999999999,
+              25.081000000000003
+            ],
+            [
+              121.46799999999999,
+              25.067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472,
+          25.07
+        ]
+      },
+      "properties": {
+        "id": "E-D1",
+        "kind": "demand",
+        "district": "E",
+        "name": "南港灣需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.478,
+          25.075000000000003
+        ]
+      },
+      "properties": {
+        "id": "E-D2",
+        "kind": "demand",
+        "district": "E",
+        "name": "南港灣需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484,
+          25.078000000000003
+        ]
+      },
+      "properties": {
+        "id": "E-D3",
+        "kind": "demand",
+        "district": "E",
+        "name": "南港灣需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473,
+          25.077
+        ]
+      },
+      "properties": {
+        "id": "E-F1",
+        "kind": "facility",
+        "district": "E",
+        "category": "park",
+        "name": "南港灣公園綠地 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481,
+          25.076
+        ]
+      },
+      "properties": {
+        "id": "E-F2",
+        "kind": "facility",
+        "district": "E",
+        "category": "sport",
+        "name": "南港灣公共運動 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484,
+          25.072000000000003
+        ]
+      },
+      "properties": {
+        "id": "E-F3",
+        "kind": "facility",
+        "district": "E",
+        "category": "open",
+        "name": "南港灣開放空間 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.476,
+          25.069000000000003
+        ]
+      },
+      "properties": {
+        "id": "E-F4",
+        "kind": "facility",
+        "district": "E",
+        "category": "park",
+        "name": "南港灣公園綠地 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "F",
+        "kind": "district",
+        "name": "南埕",
+        "population": 44900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.488,
+              25.067
+            ],
+            [
+              121.50800000000001,
+              25.067
+            ],
+            [
+              121.50800000000001,
+              25.081000000000003
+            ],
+            [
+              121.488,
+              25.081000000000003
+            ],
+            [
+              121.488,
+              25.067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492,
+          25.07
+        ]
+      },
+      "properties": {
+        "id": "F-D1",
+        "kind": "demand",
+        "district": "F",
+        "name": "南埕需求點 1",
+        "demandWeight": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498,
+          25.075000000000003
+        ]
+      },
+      "properties": {
+        "id": "F-D2",
+        "kind": "demand",
+        "district": "F",
+        "name": "南埕需求點 2",
+        "demandWeight": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.504,
+          25.078000000000003
+        ]
+      },
+      "properties": {
+        "id": "F-D3",
+        "kind": "demand",
+        "district": "F",
+        "name": "南埕需求點 3",
+        "demandWeight": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491,
+          25.071
+        ]
+      },
+      "properties": {
+        "id": "F-F1",
+        "kind": "facility",
+        "district": "F",
+        "category": "open",
+        "name": "南埕開放空間 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492,
+          25.078000000000003
+        ]
+      },
+      "properties": {
+        "id": "F-F2",
+        "kind": "facility",
+        "district": "F",
+        "category": "park",
+        "name": "南埕公園綠地 2"
+      }
+    }
+  ]
+}
