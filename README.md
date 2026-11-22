@@ -8,6 +8,8 @@
 |---|---|---|
 | [公共運動與參數比較](screenshots/02-category-comparison.png) | [GeoJSON 匯入與來源面板](screenshots/03-geojson-provenance.png) | [390 px 手機畫面](screenshots/04-mobile.png) |
 
+新版讓篩選、圖例和分區資訊各有清楚的間隔，不縮小地圖。手機保留地圖與篩選在前，可在圖下切換分區摘要、現勘優先序和比較。
+
 ## 試用
 
     python3 -m http.server 8000 --bind 127.0.0.1
