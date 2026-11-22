@@ -2,7 +2,7 @@
 
 **可操作的公共 GIS 決策支援示範**。輸入分區、設施及加權需求點，得到地圖、跨區比較、可解釋的現勘排序與可攜式 GeoJSON。範例全部為合成資料，依分區篩選後，就能選定優先現勘區並匯出結果。
 
-![桌面：六區分布、優先序和比較](screenshots/01-overview.png)
+![桌面：六區主題地圖、級距圖例、優先序抽屜及 GIS 狀態列](screenshots/01-overview.png)
 
 | 篩選實例 | 資料來源與互通 | 手機 |
 |---|---|---|
@@ -20,7 +20,7 @@
 
 ## 交付與驗證
 
-- [需求、驗收與部署說明](docs/requirements.md)
+- [需求、驗收與部署說明](docs/requirements.md)；[製圖介面設計與可及性驗收](DESIGN.md)
 - [GeoJSON 介接與演算法](docs/interoperability.md)
 - [模型／資料測試](tests/model.test.mjs)：node --test tests/model.test.mjs
 - [桌面及手機瀏覽器測試](tests/browser.py)：需 Python Playwright 與 Chromium，python tests/browser.py
